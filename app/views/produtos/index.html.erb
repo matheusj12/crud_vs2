@@ -1,0 +1,27 @@
+<h1>Lista Produtos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Nome</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @produtos.each do |produto| %>
+      <tr>
+        <td><%= produto.id %></td>
+        <td><%= produto.name %></td>
+        <td><%= link_to "Show", produto %></td>
+        <td><%= link_to "Edit", produto %></td>
+        <td><%= link_to "Destroy", produto, data: { turbo_method: :delete, turbo_confirm: "Deseja excluir?" } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to "New Produto", new_produto_path %>

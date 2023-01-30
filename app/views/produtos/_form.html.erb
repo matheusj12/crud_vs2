@@ -1,0 +1,27 @@
+<%= form_with model: @produto do |form| %>
+
+  <div>
+    <%= form.label :codBarra %><br>
+    <%= form.text_field :codBarra %>
+  <div>
+
+  <div>
+    <%= form.label :name %><br>
+    <%= form.text_field :name %>
+  <div>
+
+  <div>
+    <%= form.label :descricao %><br>
+    <%= form.text_field :descricao %>
+  <div>
+
+  <div>
+    <%= form.label :preco %><br>
+    <%= form.text_field :preco %>
+  <div>
+
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

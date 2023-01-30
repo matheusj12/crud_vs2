@@ -1,0 +1,8 @@
+<h1>Resultados da busca</h1>
+
+<ul>
+  <% @produtos.each do |produto| %>
+    <%= link_to produto.id, produto %>
+    <%= link_to produto.codBarra, produto %>
+  <% end %>
+</ul>

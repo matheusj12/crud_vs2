@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  estminimo: 1
+  estmax: 1
+  qtdestoque: 1
+  product_id: 1
+
+two:
+  estminimo: 1
+  estmax: 1
+  qtdestoque: 1
+  product_id: 1

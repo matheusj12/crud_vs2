@@ -1,0 +1,19 @@
+<h1><%= @produto.id %></h1>
+<h1><%= @produto.codBarra %></h1>
+<h1><%= @produto.name %></h1>
+<h1><%= @produto.descricao %></h1>
+<h1><%= @produto.preco %></h1>
+<h1><%= @produto.imagem %></h1>
+<h1><%= @produto.created_at %></h1>
+
+<ul>
+  <li><%= link_to "Edit", edit_produto_path(@produto) %></li>
+  <li><%= link_to "Destroy", produto_path(@produto), data: {
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?"
+                  } %></li>
+</ul>
+
+
+
+

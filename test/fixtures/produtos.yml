@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  codBarra: 1
+  name: MyString
+  descricao: MyText
+  status: 1
+  subcategorias_id: 1
+  preco: 1.5
+  imagem: MyText
+
+two:
+  codBarra: 1
+  name: MyString
+  descricao: MyText
+  status: 1
+  subcategorias_id: 1
+  preco: 1.5
+  imagem: MyText
